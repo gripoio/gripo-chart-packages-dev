@@ -9,7 +9,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-11T14:39:13.72297963Z"
+    created: "2025-03-26T16:54:49.045053156Z"
     description: A Helm chart for deploying AKS advance cluster
     digest: 09d7e8feb5e05492c1c315343a24cfe5c44708e81ebbfc6dd54dbe331d731602
     keywords:
@@ -29,7 +29,7 @@ entries:
         - "cloudformationsetting"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-11T14:39:13.723158254Z"
+    created: "2025-03-26T16:54:49.045555709Z"
     description: A Helm chart for deploying cloud formation setting
     digest: 90e0cc01381471a93f3d1688fd0fe77d42c9867249634c54415a8c1faf36b938
     keywords:
@@ -50,7 +50,7 @@ entries:
         - "cloudformationvpc"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-11T14:39:13.724153608Z"
+    created: "2025-03-26T16:54:49.046277424Z"
     description: A Helm chart for deploying vpc and other network services for eks
       cluster using cloudformation
     digest: fa688c0e79de91b65755e05507ab4ece64bcdff29f567d4c7ca56f4ad1392df2
@@ -72,7 +72,7 @@ entries:
         - "clusteriamrole"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-11T14:39:13.724711923Z"
+    created: "2025-03-26T16:54:49.046486915Z"
     description: A Helm chart for deploying Cluster IAM role
     digest: eeff70bb9746c81a101d4c5d617ebe97aca2569f9dd31f52c8081fe9b58c5ccc
     keywords:
@@ -94,7 +94,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-11T14:39:13.725076505Z"
+    created: "2025-03-26T16:54:49.046677821Z"
     description: A Helm chart for deploying Digitalocean cluster
     digest: f78da539cd65586d72da040a6729b5d5ada0a34297f565dd92ae85d742b5867f
     keywords:
@@ -113,7 +113,7 @@ entries:
         - "ebscsipodidentityrole"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-11T14:39:13.725262173Z"
+    created: "2025-03-26T16:54:49.046859079Z"
     description: A Helm chart for deploying EBS CSI Pod Identity role
     digest: 033d52cc29e0cdfe40cbd6e32b55544c1f395087b0a5f0f9a3148c913d52755c
     keywords:
@@ -135,7 +135,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-11T14:39:13.725506851Z"
+    created: "2025-03-26T16:54:49.047115147Z"
     description: A Helm chart for deploying EKS cluster
     digest: e8a97a1832c906a4acd17e755e67ecb0889500cd644afeaa917506b6b03a9608
     keywords:
@@ -156,7 +156,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-11T14:39:13.725782487Z"
+    created: "2025-03-26T16:54:49.047378418Z"
     description: A Helm chart for deploying Gke cluster
     digest: d1ef268222df2928efcf66d26a4204be0c974cd963390ccd3557dbcf696f26e1
     keywords:
@@ -177,7 +177,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-11T14:39:13.725968575Z"
+    created: "2025-03-26T16:54:49.047570836Z"
     description: A Helm chart for deploying Linode cluster
     digest: 2ef4c16bd6eeba3f1dad70a7d7f8d65f501192546e6678e43fa78fc7b8508fbf
     keywords:
@@ -196,7 +196,7 @@ entries:
         - "nodeiamrole"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-11T14:39:13.726144905Z"
+    created: "2025-03-26T16:54:49.047723852Z"
     description: A Helm chart for deploying Node IAM role
     digest: 22327e334659be6a6fc3702e76d6e112d1e9131d4dea86e9eb78fb9ed17be1b3
     keywords:
@@ -209,4 +209,22 @@ entries:
     urls:
     - packages/node-iam-role-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-11T14:39:13.722455528Z"
+  virtual-cluster:
+  - annotations:
+      cloudServiceProvider: vcluster
+      packageType: clusterdeployment
+      templateType: |
+        - "vcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-03-26T16:54:49.047875936Z"
+    description: A Helm chart for deploying Virtual cluster
+    digest: 89407221ae583bd9a3cf9ec0d1f210a6bca64752796214aa15bcc95a97164c05
+    keywords:
+    - vcluster
+    name: virtual-cluster
+    type: application
+    urls:
+    - packages/virtual-cluster-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-03-26T16:54:49.043856424Z"
