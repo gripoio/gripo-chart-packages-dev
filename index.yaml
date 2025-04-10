@@ -9,7 +9,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-08T15:02:17.717780714Z"
+    created: "2025-04-10T16:32:49.111410472Z"
     description: A Helm chart for deploying AKS advance cluster
     digest: 09d7e8feb5e05492c1c315343a24cfe5c44708e81ebbfc6dd54dbe331d731602
     keywords:
@@ -29,7 +29,26 @@ entries:
         - "workloadcluster"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-08T15:02:17.718037714Z"
+    created: "2025-04-10T16:32:49.111852303Z"
+    description: A Helm chart for Kubernetes
+    digest: a2e71c86890fc81e3e3d0de258445986a6dd466d0d422928b68c163ec99c8ea3
+    keywords:
+    - azure
+    - clusterdeployment
+    - workloadcluster
+    name: capz-cluster
+    type: application
+    urls:
+    - packages/capz-cluster-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      cloudServiceProvider: azure
+      packageType: clusterdeployment
+      templateType: |
+        - "workloadcluster"
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-10T16:32:49.11164067Z"
     description: A Helm chart for Kubernetes
     digest: 68271ee03dca91b37d1c9805b9a05fdde5dcdd961cbcd454aaa560fdd83e94a3
     keywords:
@@ -49,7 +68,7 @@ entries:
         - "cloudformationsetting"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-08T15:02:17.718198714Z"
+    created: "2025-04-10T16:32:49.112021066Z"
     description: A Helm chart for deploying cloud formation setting
     digest: 90e0cc01381471a93f3d1688fd0fe77d42c9867249634c54415a8c1faf36b938
     keywords:
@@ -70,7 +89,7 @@ entries:
         - "cloudformationvpc"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-08T15:02:17.718882982Z"
+    created: "2025-04-10T16:32:49.113009551Z"
     description: A Helm chart for deploying vpc and other network services for eks
       cluster using cloudformation
     digest: fa688c0e79de91b65755e05507ab4ece64bcdff29f567d4c7ca56f4ad1392df2
@@ -92,7 +111,7 @@ entries:
         - "clusteriamrole"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-08T15:02:17.719067155Z"
+    created: "2025-04-10T16:32:49.113358729Z"
     description: A Helm chart for deploying Cluster IAM role
     digest: eeff70bb9746c81a101d4c5d617ebe97aca2569f9dd31f52c8081fe9b58c5ccc
     keywords:
@@ -114,7 +133,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-08T15:02:17.71925712Z"
+    created: "2025-04-10T16:32:49.11391157Z"
     description: A Helm chart for deploying Digitalocean cluster
     digest: f78da539cd65586d72da040a6729b5d5ada0a34297f565dd92ae85d742b5867f
     keywords:
@@ -133,7 +152,7 @@ entries:
         - "ebscsipodidentityrole"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-08T15:02:17.71944453Z"
+    created: "2025-04-10T16:32:49.114172264Z"
     description: A Helm chart for deploying EBS CSI Pod Identity role
     digest: 033d52cc29e0cdfe40cbd6e32b55544c1f395087b0a5f0f9a3148c913d52755c
     keywords:
@@ -155,7 +174,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-08T15:02:17.719715425Z"
+    created: "2025-04-10T16:32:49.114425644Z"
     description: A Helm chart for deploying EKS cluster
     digest: e8a97a1832c906a4acd17e755e67ecb0889500cd644afeaa917506b6b03a9608
     keywords:
@@ -176,7 +195,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-08T15:02:17.719938572Z"
+    created: "2025-04-10T16:32:49.1146765Z"
     description: A Helm chart for deploying Gke cluster
     digest: d1ef268222df2928efcf66d26a4204be0c974cd963390ccd3557dbcf696f26e1
     keywords:
@@ -197,7 +216,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-08T15:02:17.720107146Z"
+    created: "2025-04-10T16:32:49.114853238Z"
     description: A Helm chart for deploying Linode cluster
     digest: 2ef4c16bd6eeba3f1dad70a7d7f8d65f501192546e6678e43fa78fc7b8508fbf
     keywords:
@@ -216,7 +235,7 @@ entries:
         - "nodeiamrole"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-08T15:02:17.720279137Z"
+    created: "2025-04-10T16:32:49.115020108Z"
     description: A Helm chart for deploying Node IAM role
     digest: 22327e334659be6a6fc3702e76d6e112d1e9131d4dea86e9eb78fb9ed17be1b3
     keywords:
@@ -237,7 +256,7 @@ entries:
         - "vcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-08T15:02:17.720432724Z"
+    created: "2025-04-10T16:32:49.115207756Z"
     description: A Helm chart for deploying Virtual cluster
     digest: 89407221ae583bd9a3cf9ec0d1f210a6bca64752796214aa15bcc95a97164c05
     keywords:
@@ -247,4 +266,4 @@ entries:
     urls:
     - packages/virtual-cluster-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-08T15:02:17.717044488Z"
+generated: "2025-04-10T16:32:49.110734628Z"
